@@ -1,0 +1,278 @@
+body
+{
+	background-image: url("../../ImagesMaterial/images/netflix-tools-670x335.jpg");
+}
+#payment
+{
+	background: #f2f2f2;
+	width: 100%;
+	float: left;
+	margin-bottom: 2%;
+	margin-top: 2%;
+	
+}
+#myFile
+{
+	display: none;
+}
+#payment hr
+{
+	color: #333;
+	margin: 2%;
+	clear: both;
+	border-width: 5px;
+}
+#payment h2
+{
+	float:left;
+	width:18%;
+	margin-left: 5%;
+	font-variant: small-caps;
+	font-size: 22px;
+	padding-top: 3px;
+}
+#zero
+{
+	margin-top: 3%;
+	margin-left: 20%;
+	margin-bottom: 1%;
+}
+#zero input
+{
+	width: 70%;
+	margin-left:5%;
+}
+#password
+{
+	margin-left: 5%;
+}
+#first
+{
+	width: 40%;
+	float: right;
+}
+#first img
+{
+	float: left;
+}
+#second 
+{
+	width:30%;
+	float: left;
+	margin-left: 4%;
+	margin-bottom: 3%;
+}
+.move
+{
+	padding-left: 14%;
+
+}
+#photoFace
+{
+	margin-bottom: 2%;
+}
+#second img
+{
+	padding-left: 6%;
+	
+}
+#imFile
+{
+	cursor: pointer;
+}
+
+#payment form
+{
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	padding-top: 25px;
+	text-align: center;
+	font-style: normal;
+	overflow: hidden;
+	font-variant: small-caps;
+	font-weight: bold;
+    font-size: 17px;
+}
+#payment input, select
+{
+	margin: 10px;
+	border: none;
+    border-bottom: 1px solid grey;
+    background-color:#f2f2f2;
+    text-align: left;
+    width: 50%;
+    font-variant: small-caps;
+	font-weight: bold;
+	font-size: 15px;
+}
+#first1
+{
+	margin-top: 3%;
+	margin-left: 20%;
+	margin-bottom: 5%;
+}
+#firstpart input, #firstpart select
+{
+	width: 70%;
+}
+#secondpart , #thirdpart , #fourthpart 
+{
+	float: left;
+}
+#secondpart 
+{
+	margin-left: 0%;
+	width: 60%;
+}
+#fourthpart 
+{
+	width:10%;
+}
+#thirdpart
+{
+	width: 15%;
+}
+#final
+{
+	width: 100%;
+	text-align: center;
+	margin-left: 10%;
+}
+#final button 
+{
+	padding:1%;
+	margin-top: 4%;
+	margin-left: 1%;
+	cursor: pointer;
+	border-radius: 10px;
+	border: 2px solid #333;
+	color: #333;
+	background-color: #f2f2f2; 
+	font-weight: bold;
+	font-size: 20px;
+}
+#final button:hover
+{
+	border: 2px solid #f2f2f2;
+	color: #f2f2f2;
+	background-color: #333; 
+}
+@media (max-width: 1024px) and (min-width: 768px)
+{
+#payment
+{
+	width:100%;
+}
+#secondpart 
+{
+	margin-left: 2%;
+	width: 50%;
+}
+#paypal img{
+	text-align: center;
+	margin-left: 10%;
+}
+
+#fourthpart
+{
+	width:10%;
+}
+#thirdpart
+{
+	width: 25%;
+}
+#first{
+	width: 25%;
+} 
+#payment h2
+{
+	width:25%
+}
+#first
+{
+	width: 20%;
+}
+#second 
+{
+	width:40%;
+}
+#final
+{
+	width: 100%;
+	text-align: center;
+	margin-left: 10%;
+}
+#final button 
+{
+	padding:1%;
+	margin-top: 4%;
+	margin-left: 1%;
+	cursor: pointer;
+	border-radius: 10px;
+	border: 2px solid #333;
+	color: #333;
+	background-color: #f2f2f2; 
+	font-weight: bold;
+}
+}
+@media (max-width: 640px) and (min-width: 360px)
+{
+#payment
+{
+	width: 100%;
+}
+
+#zero
+{
+	width:60%;
+}
+#paypal img{
+	text-align: center;
+	width: 70%;
+}
+#first
+{
+	width: 50%;
+}
+#first img
+{
+	margin-top:4%;
+}
+#second 
+{
+	width:40%;
+	padding-left:3%
+}
+
+#payment h2
+{
+	width:100%;
+	clear: both;
+	margin-left:2%;
+}
+#first1
+{
+	width:60%;
+	float:left;
+}
+#firstpart input, #firstpart select
+{
+	width: 100%;
+}
+#secondpart 
+{
+	width: 30%;
+}
+#fourthpart 
+{
+	width:20%;
+}
+#thirdpart
+{
+	width: 50%;
+}
+#final
+{
+	width: 80%;
+}
+}

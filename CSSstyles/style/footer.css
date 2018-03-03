@@ -1,0 +1,28 @@
+
+footer { 
+    width: 100%;
+    float: left;
+    background-color: #333;
+}
+
+
+footer #socialfooter{
+    width: 100%;
+    text-align: center;
+    padding-right: 1%;
+    padding-top: 1%;
+     padding-bottom: 1%;
+}
+
+footer #socialfooter a{ 
+    padding-top: 2%;
+    padding-left: 1%;
+    padding-bottom: 2%;
+   
+}
+@media (max-width: 1024px) and (min-width: 768px)
+{
+    footer{
+        width:100%;
+    }
+    }

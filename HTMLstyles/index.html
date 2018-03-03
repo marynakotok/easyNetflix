@@ -1,0 +1,138 @@
+<!Doctype html>
+<html>
+<head>
+	<title>Netflix</title>
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<link rel="stylesheet" type="text/css" href="../CSSstyles/style/footer.css">
+			<link rel="stylesheet" type="text/css" href="../CSSstyles/style/nav.css">
+			<link rel="stylesheet" type="text/css" href="../CSSstyles/style/style.css">
+			<link rel="stylesheet" type="text/css" href="../CSSstyles/style/header.css">
+			<link rel="stylesheet" type="text/css" href="../CSSstyles/style/modalBox.css">
+			<link rel="shortcut icon" href="../ImagesMaterial/images/netflix.ico" type="image/png" />
+    
+<body onload="modalBox()">
+		<header>
+			<a href="index.html" class="logoN"><img src="../ImagesMaterial/images/logo2.png" alt></a>
+		    <div id="logo">
+				<h1>
+					NETFLIX
+				</h1>
+	        </div>
+	        <div id="user">
+	        			<h3 id="NameUser">Username</h3>
+	        		    <img src="../ImagesMaterial/images/unknown1.ico" alt id="PhotoUser">
+	        		</div>
+		          <nav>
+					<a href="#home" class="navbtn" id="first">Home</a>        	
+	        		<a href="#videos" class="navbtn">Videos</a>
+	        		<a href="account.html" class="navbtn">My Account</a>
+	        	  </nav>
+	        		
+
+	    </header>
+    <!-- Modal content -->
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+             <!--<span class="close" id="close" &times;</span>-->
+             <h2>Enter the username and password of your account</h2>
+        </div>
+        <div class="modal-body">
+        	<form id="form">
+		     <p>Email</p>
+		     <p><input type="email" id="emailStart" required="" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"></p>
+		     <p>Password</p>
+		     <p><input type="text" id="passwordStart" required="" pattern="[a-z0-9]{8}"></p>
+		     <p><button type="submit" value="login" id="login">Log in</button></p>
+		     
+		    </form>
+        </div>
+    </div>
+</div>
+
+	<div id=home>
+
+	</div>
+	<div id=videos>
+				<div id="text">
+					<h1>CRAZYHEAD</h1>
+					
+					<div class="like" id="like">
+				<img src="../ImagesMaterial/social/like.png" alt="">
+				<h2>0 likes</h2>
+					</div>
+					<div class="sharing" id="sharing">
+				<img src="../ImagesMaterial/social/molecule.png" alt="">
+				<h2>0 sharing</h2>
+			</div>
+		
+			<div class="textVideo">
+				<hr >
+				<h3 id="textDrop">
+					Amy and Raquel attempt to navigate their way<br> through the choppy waters of their early<br> twenties whilst simultaneously kicking the ass <br>of some seriously gnarly demons. What could possibly go wrong?
+				</h3>
+			</div>
+
+				</div>
+				<div id="VideoMain">
+					<video src="../ImagesMaterial/videos/video1.mp4" controls id="videoDrop" ondrop="drop(event, 'textDrop')" ondragover="allowDrop(event)"> </video>
+				</div>
+	    
+		<h1>OTHER VIDEOS</h1>
+
+		        <div class="col1">
+					
+						<!--<img src="../Images and material/images/file.png" alt="Image" class="img-responsive">-->
+						<video src="../ImagesMaterial/videos/video2.mp4" controls id="videoDrag1" draggable="true" ondragstart="drag(event, 'textDrag1')"> </video>
+						<div class="text">
+						<h2>Video 1</h2>
+						<span class="span1"><img src="../ImagesMaterial/images/plus.png" alt=""></span>
+						</div>
+						<div class="text1" hidden="">
+							<h2 id="textDrag1">Former toy maker Sam Mullins and his wife, Esther, are happy to welcome a nun and six orphaned girls into their California farmhouse. Years earlier, the couple's 7-year-old daughter Annabelle died in a tragic car accident.</h2>
+						</div>
+				
+				</div>
+
+				<div class="col2">
+					
+						<!--<img src="../Images and material/images/file.png" alt="Image" class="img-responsive">-->
+						<video src="../ImagesMaterial/videos/video3.mp4" controls id="videoDrag2" draggable="true" ondragstart="drag(event, 'textDrag2')"> </video>
+						<div class="text">
+						<h2>Video 2</h2>
+						<span class="span2"><img src="../ImagesMaterial/images/plus.png" alt=""></span>
+						</div>
+						<div class="text2" hidden>
+							<h2 id="textDrag2">For Detective Harry Hole, the death of a young woman during the first snowfall of winter feels like anything but a routine homicide. His investigation leads him to "The Snowman Killer," an elusive sociopath </h2>
+						</div>
+				
+				</div>
+
+				<div class="col3">
+					
+						<!--<img src="../Images and material/images/file.png" alt="Image" class="img-responsive">-->
+						<video src="../ImagesMaterial/videos/video4.mp4" controls id="videoDrag3" draggable="true" ondragstart="drag(event, 'textDrag3')"> </video>
+						<div class="text">
+						<h2>Video 3</h2>
+						<span class="span3"><img src="../ImagesMaterial/images/plus.png" alt=""></span>
+						</div>
+						<div class="text3" hidden="">
+							<h2 id="textDrag3">After an unprecedented series of natural disasters threatened the planet, the world's leaders came together to create an intricate network of satellites to control the global climate and keep everyone safe.</h2>
+						</div>
+				
+				</div>
+	</div>
+
+<footer>
+		<div id="socialfooter">
+		<a href="https://www.youtube.com"> <img src="../ImagesMaterial/social/youtube.png" alt=""></a>
+		<a href="https://www.twitter.com" > <img src="../ImagesMaterial/social/twitter.png" alt=""></a>
+		<a href="https://www.instagram.com" > <img src="../ImagesMaterial/social/instagram.png" alt=""></a>
+		<a href="https://www.facebook.com" > <img src="../ImagesMaterial/social/facebook.png" alt=""></a>
+		</div>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="../JavaScript/index.js"></script>
+</body>
+</html>

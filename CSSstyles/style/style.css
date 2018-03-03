@@ -1,0 +1,322 @@
+body{
+	background-image: url("../../ImagesMaterial/images/netflix-tools-670x335.jpg");
+}
+
+#videos{
+	background-color: #333;
+	width: 100%;
+	margin-top: 2%;
+	margin-bottom:2%;
+	float: left;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 8px;
+}
+
+#videos h1{
+	  color: #e40914;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 35px;
+    clear: both;
+    text-align: center;
+
+}
+#VideoMain video{
+	width: 30%;
+  height: auto;
+	float:left;
+	margin: 5%;
+	margin-left: 5%;
+  padding-left: 5%;
+}
+
+#text{
+	float: left;
+  width: 40%;
+}
+#text img{
+	float: left;
+	margin: 5%;
+	margin-left: 25%;
+}
+
+#text img:hover{
+  cursor: pointer;
+}
+#text h2{
+	  color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 5px; padding: 5%;
+  
+}
+#text h3{
+		color: #f2f2f2;
+	    padding: 14px 16px;
+	    text-decoration: none;
+	    font-size: 12px;
+	    text-align: center;
+	    clear: both;
+	    margin-left: 10%;
+       margin-bottom: 5%;
+	    
+}
+#text hr{
+	color: #f2f2f2;
+	margin-left: 10%;
+  clear: both;
+	
+}
+.col1, .col2, .col3
+{
+  float:left;
+  width:30%;
+  margin-left: 3%;
+  margin-bottom: 3%;
+  text-align: center;
+}
+.col1 video,.col2 video,.col3 video
+{
+  width: 200px;
+  height: 180px;
+  float:left;
+  cursor: move;
+  
+}
+.col1 span, .col2 span, .col3 span
+{
+  cursor: pointer;
+  float: right;
+  margin: 4%;
+}
+.text 
+{
+  width:200px;
+  background-color:#f2f2f2; 
+  height: 30px;
+  clear: both;
+
+ 
+}
+.text h2
+{
+  float: left;
+  width: 70px;
+}
+.text1
+{
+  width:182px;
+  background-color:#f2f2f2; 
+  height: 150px;
+  clear: both;
+  padding: 2%;
+  border-radius: 10px;
+  border:3px solid #e40914;
+}
+.text2
+{
+  width:182px;
+  background-color:#f2f2f2; 
+  height: 150px;
+  clear: both;
+  padding: 2%;
+  border-radius: 10px;
+  border:3px solid #e40914;
+}
+.text3
+{
+  width:182px;
+  background-color:#f2f2f2; 
+  height: 150px;
+  clear: both;
+  padding: 2%;
+  border-radius: 10px;
+  border:3px solid #e40914;
+}
+
+
+
+@media (max-width: 1100px) and (min-width: 790px)
+{
+    
+#videos
+{
+   width: 100%;
+}
+#text{
+  float: left;
+}
+
+#VideoMain video {
+  width: 250px;
+  height: auto;
+  float: left;
+  
+  margin-left: 10%;
+}
+#text hr
+{
+  clear: both;
+}
+
+.col1 video,.col2 video,.col3 video{
+    width: 200px;
+    height: 180px;
+    float: left;   
+}
+
+.textVideo{
+  padding-top: 10px;
+}
+.sharing{
+  width: 220px;
+  float: left;
+}
+.like{
+  width: 220px;
+  float: left;
+}
+
+}
+
+@media (max-width: 790px) and (min-width: 600px){
+
+.textVideo{
+  padding-top: 10px;
+}
+.sharing{
+  width: 220px;
+  float: left;
+}
+.like{
+  width: 200px;
+  float: left;
+}
+
+#videos{
+   width: 100%;
+   margin-left: auto;
+}
+ 
+.col1 video,.col2 video,.col3 video{
+    
+    height: auto;
+    float: left;   
+}
+#textDrop{
+      width:100%;
+      text-align: center;
+      margin-right: 5%;
+    }
+    #VideoMain video
+    {
+        float: left;
+        width: 250px;
+        height: auto;
+        margin-top: 5%;
+    }
+    .col1,.col2,.col3
+    {
+      width: 35%;
+    }
+
+}
+@media (max-width: 1024px) and (min-width: 790px)
+{
+#text
+{
+  float: left;
+  margin-left: 4%;
+}
+
+#text img{
+ 
+  margin-left:35%;
+}
+
+.col1,.col2,.col3{
+    width: 200px;
+    height: auto;
+    margin-left: 30%;
+    float: left;
+    margin: 2%;   
+   
+}
+.text 
+{
+  width:200px;
+  background-color:#f2f2f2; 
+  height: 40px;
+  clear: both;
+}
+
+.text1
+{
+  width:165px;
+  padding: 15px;
+  height: 200px;
+}
+.text2
+{
+  width:165px;
+  padding: 15px;
+  height: 200px;
+}
+.text3
+{
+  width:165px;
+  padding: 15px;
+  height: 200px;
+}
+
+#VideoMain video {
+  width: 250px;
+  height: auto;
+  float: left;
+  margin-left: 10%;
+  
+  
+}
+}
+
+@media (max-width: 600px) and (min-width: 360px)
+{
+    #videos{
+      width: 100%;
+      clear: both;
+    }
+
+    #text h1
+    {
+      margin-left: 25%;
+    }
+    #text hr
+    {
+    width: 150%;
+  
+    }
+    #text
+    {
+      margin-left: 15%;
+    }
+    #textDrop{
+      width:150%;
+      text-align: center;
+      margin-right: 5%;
+    }
+    #VideoMain
+    {
+        float: left;
+        margin-left: 1%;
+        width: 800px;
+        height: auto;
+        clear: both;
+    }
+    .col1,.col2,.col3
+    {
+      clear: both;
+      margin-left: 25%;
+    }
+}

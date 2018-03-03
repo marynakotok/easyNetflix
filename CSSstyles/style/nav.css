@@ -1,0 +1,44 @@
+nav {
+    background-color: #333;
+    overflow: hidden; 
+    font-variant: small-caps;
+    width: 100%;
+    float: left;
+    clear: both;
+    height: 60px;
+}
+
+nav a {  
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    width: 10%;
+    margin: 15px;
+
+
+}
+
+nav a.active 
+{
+    background-color: #b11515;
+    color: white;
+}
+
+    @media (max-width: 1024px) and (min-width: 768px)
+{
+    nav 
+    {
+        width: 100%;
+    }
+
+
+}
+
+@media (max-width: 640px) and (min-width: 360px)
+{
+    nav {
+    height: 80px;
+}
+}

@@ -1,0 +1,70 @@
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 80%; 
+    height: 80%; 
+    margin-left: 8%;
+}
+.modal-content {
+    position: relative;
+    background-color: #f2f2f2;
+    padding: 0;
+    border: 3px solid #9c0d14;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    text-align: center;
+    font-variant: small-caps;
+	font-weight: bold;
+	font-size: 20px;
+
+}
+
+/* Add Animation */
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+.modal-content input
+{
+	border: none;
+    border-bottom: 1px solid grey;
+    background-color:#f2f2f2;
+    text-align: left;
+    width: 40%;
+    font-variant: small-caps;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.modal-content button
+{
+	cursor: pointer;
+	border-radius: 10px;
+	border: 2px solid #333;
+	color: #333;
+	background-color: #f2f2f2; 
+	font-weight: bold;
+	padding: 1%;
+	font-size: 20px;
+}
+.modal-content button:hover
+{
+	border: 2px solid #f2f2f2;
+	color: #f2f2f2;
+	background-color: #333; 
+}
+.modal-header {
+    padding: 2px 16px;
+    background-color: #252020;
+    color: #f2f2f2;
+    text-align: center;
+    font-variant: small-caps;
+	font-size: 22px;
+}
+
+.modal-body {padding: 2px 16px;}
